@@ -1,13 +1,20 @@
 import turtle
 
 screen = turtle.getscreen()
-turtle = turtle.Turtle()
+t = turtle.Turtle()
 
-turtle.right(90)
-turtle.forward(90)
-turtle.left(90)
-turtle.backward(90)
-
+t.rt(-45)
+t.fd(100)
+t.rt(90)
+t.fd(100)
+t.rt(90)
+t.fd(200)
+t.rt(90)
+t.fd(200)
+t.rt(90)
+t.fd(100)
+t.rt(90)
+t.fd(100)
 
 # Keep the Turtle graphics window open
 turtle.getscreen().mainloop()
